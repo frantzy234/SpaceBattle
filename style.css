@@ -1,0 +1,114 @@
+
+body{
+    background: url(Images/55555.png);
+}
+
+
+
+.gameScreen{
+    border:solid black;
+    height:65vh;
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.player1{
+   
+   border: solid red;
+    width:40%;
+    margin:1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.player2{
+    
+   border: solid rgb(155, 46, 111);
+    width:40%;
+    margin:1em;
+}
+
+    
+
+.gameboard{
+    border:solid black;
+    height:65vh;
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+.p1{
+
+    width:40%;
+    margin:1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p2{
+    
+    height:60px;
+    margin-top:35%;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: #f6bc74;
+}
+
+
+
+
+
+
+#player1Img img{
+    height: 55vh;
+    width: 75%;
+    justify-items: center;
+ 
+
+}
+#player2Img img {
+    height: 55vh;
+    width: 75%;
+    justify-items: center;
+    margin-left: 5em;
+}
+
+
+
+
+#eventLog {
+    margin-top: 1em;
+  }
+  #logTitle {
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  #log {
+    height: 300px;
+    text-align: center;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #8c2121;
+    color: white;
+}
+
+  
+#playerStats {
+ color: rgb(30, 255, 0);
+}
+
+#alienStats{
+    color: rgb(30, 255, 0);
+}
+
+.alienHover{
+    border-radius: 50%;
+    height: 66px;
+    width: 66px;
+}

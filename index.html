@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+          
+        <!---Left Audio out -->
+       <!-- <audio controls autoplay loop>
+            <source src="Space Jam.mp3" type="audio/mp3">
+        </audio> -->
+
+
+
+        <div class="gameScreen">
+            <div class="player1">
+
+                <div id="player1Img" class="characters">
+                    <img src="Images/USA.png">
+                    
+                </div>
+                
+                
+            </div>
+            
+            <div id="title">
+                <h1> Welcome to 
+                    <br>
+                    Space Jam Battle Arena
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzJzYW9rcXB5N3N2Zzg3M2htdnI5bzlpdW8wbWgxZXQ1ZjB2dXpuMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r88w2d7tHqazFwNEGN/giphy.webp" 
+                alt="" class="alienHover"> </h1>
+            </div>
+
+            <div class="player2">
+                <div id="player2Img" class="characters">
+                    <img src="Images/Swackhammer copy.png">
+
+
+            </div>
+
+    
+            </div>
+            
+        </div>
+        
+
+        <div id="bottomRow">
+            <p>Space Jam Battle Arena!</p>
+            
+            <p></p>
+            <div id="playerStats">Player Ship Hull: </div>
+            <div id="alienStats">Alien Ship Hull: </div>
+
+            
+            
+            <button onclick="startGame()">Start Game</button>
+        
+                <hr>
+
+            <div id="fightButton">
+
+                <button id="fightButton" class="button">Attack</button>
+            
+            </div>
+        
+        
+        <button id="retreatButton" class="button">Retreat</button>
+
+
+        <div id="eventLog">
+            <div id="logTitle">Event Log</div>
+            <div id="log"></div>
+    
+
+    
+        <script src="app.js" async defer></script>
+    </body>
+</html>
